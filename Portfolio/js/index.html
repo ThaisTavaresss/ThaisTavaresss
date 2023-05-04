@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thais Tavares</title>
+        <link rel="stylesheet" href="./estilo/estilo.css" type="text/css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+                $("span").click(function(){
+                    $("span").animate({ marginLeft: "128px"}, 5000);
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="./project.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <header>
+                <div class="center">
+                    <img src="./img/thais.jpeg"></img>
+                </div>
+                <!--Modo escuro-->
+                <button id="theme-toggle">
+                    <img src="./img/claro-escuro.gif" alt="sol e lua" width="30">
+                </button>
+                <!--Modo escuro-->
+                <h1><span>Thais Tavares</span></h1>
+                <h2>Analista de Suporte e Estudante de Desenvolvimento Web</h2>
+                
+            </header>
+    
+            <main>
+                <section>
+                    <div class="card">
+                        <h3>Sobre mim</h3>
+                        <p>
+                           Brasileira, carioca, 38 anos, mãe de pets. Amo a natureza e estou me desafiando na área de desenvolvimento web.
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <div class="card">
+                        <h3>Formação</h3>
+                        <p>
+                           Cursando Mais Um Code <br>
+                           QA Coders <br>
+                           Elas Na Tech(); <br>
+                           DevMedia
+                        </p>
+                    </div>
+                </section> 
+                <section>
+                    <div class="card">
+                        <h3>Cursos</h3>
+                        <p>
+                            Cursando Mais Um Code <br>
+                            QA Coders <br>
+                            Elas Na Tech(); <br>
+                            DevMedia
+                         </p>
+                    </div>
+                </section>
+            </main>
+            <!--Trecho para adicionar acessibilidade-->
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.widget('https://vlibras.gov.br/app');
+            </script>
+            <footer>
+                <a href="https://github.com/ThaisTavaresss" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.PNG">
+                    <p>Github</p>
+                </a>
+                <a href="https://www.linkedin.com/in/thais-tavares-suporte/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin.PNG">
+                    <p>Linkedin</p>
+                </a>
+            </footer>
+        </div>    
+    </body>
+</html>

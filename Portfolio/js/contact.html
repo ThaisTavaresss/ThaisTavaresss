@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./estilo/estilo.css" type="text/css"/>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="center">
+            <h1>Entre em contato</h1>
+            <h2>Meu e-mail: thais.tavares05@gmail.com</h2>
+        </header>
+        <form class="contact-form" action="/send" method="POST">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div>
+                <label for="message">Mensagem</label><br>
+                <input type="text" id="mensagem" name="message" required>
+            </div>
+            <button type="submit">Send</button>
+            <input type="hidden" name="_next" value="file:///C:/Users/User/Documents/elas%20na%20tech/github/thanks.html">
+            <input type="hidden" name="_subject" value="New submission">
+        </form>
+    </div>
+</body>
+<footer>
+    <a href="https://github.com/ThaisTavaress/Portfolio.git" target="_blank" rel="noopener noreferrer">
+        <img src="./img/github.PNG">
+        <p>Github</p>
+    </a>
+    <a href="https://www.linkedin.com/in/thais-t-3843b0154/" target="_blank" rel="noopener noreferrer">
+        <img src="./img/linkedin.PNG">
+        <p>Linkedin</p>
+    </a>
+</footer>
+</html>
+
+
