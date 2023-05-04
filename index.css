@@ -1,5 +1,5 @@
 body {
-    color: aqua;
+    color: darkgray;
     background-color: rgb(213, 122, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,7 +13,7 @@ ul {
 }
 
 a {
-    color: aqua;
+    color: darkgray;
     text-decoration: none;
 }
 
@@ -57,6 +57,6 @@ footer p {
 
 nav a {
     font-size: 20px;
-    color:aqua
+    color:darkgray
 }
 
